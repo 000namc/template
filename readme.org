@@ -23,10 +23,11 @@ Project
 ├── experiments
 │   └── {dataname}
 │       └── {modelname}
-│           └── {experiment}
-│               ├── config.json 
-│               ├── summary.json
-│               └── best.tar
+│           ├── {experiment}
+│           │   ├── summary.json
+│           │   └── best.tar
+│           │
+│           └── config.json 
 │
 ├── train.py
 ├── summary.py
