@@ -7,13 +7,13 @@ Project
 │
 ├── data
 │   ├── origin
-│   ├── {dataname}
-│   │   └── mart.csv
+│   ├── {dataname}.csv
 │   │
 │   └── config.json
 │
-├── models/
+├── models
 │   ├── {modelname}
+│   │   ├── data.py
 │   │   ├── net.py
 │   │   └── ops.py
 │   │
