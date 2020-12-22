@@ -29,6 +29,10 @@ Project
 │           │
 │           └── config.json 
 │
+├── run
+│   ├── {version}.sh
+│   └── log.json
+│
 ├── train.py
 ├── summary.py
 ├── summary.ipynb
