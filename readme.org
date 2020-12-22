@@ -1,6 +1,7 @@
 
-```bash
-# example: Convolutional_Neural_Networks_for_Sentence_Classification
+#+BEGIN_SRC
+
+
 ├── build_dataset.py
 ├── build_vocab.py
 ├── conf
@@ -29,4 +30,5 @@
 │   └── vocab.pkl
 ├── train.py
 └── utils.py
-```
+#+END_SRC
+
