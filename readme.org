@@ -2,33 +2,38 @@
 #+BEGIN_SRC
 
 
-├── build_dataset.py
-├── build_vocab.py
-├── conf
-│   ├── dataset
-│   │   └── nsmc.json
-│   └── model
-│       └── sencnn.json
-├── evaluate.py
+Project
+│
+│
+├── data
+│   ├── origin
+│   ├── {dataname}
+│   │   └── mart.csv
+│   │
+│   └── config.json
+│
+├── models/
+│   ├── {modelname}
+│   │   ├── net.py
+│   │   └── ops.py
+│   │
+│   ├── utils.py
+│   └── metric.py
+│
 ├── experiments
-│   └── sencnn
-│       └── epochs_5_batch_size_256_learning_rate_0.001
-├── model
-│   ├── data.py
-│   ├── __init__.py
-│   ├── metric.py
-│   ├── net.py
-│   ├── ops.py
-│   ├── split.py
-│   └── utils.py
-├── nsmc
-│   ├── ratings_test.txt
-│   ├── ratings_train.txt
-│   ├── test.txt
-│   ├── train.txt
-│   ├── validation.txt
-│   └── vocab.pkl
+│   └── {dataname}
+│       └── {modelname}
+│           └── {experiment}
+│               ├── config.json 
+│               ├── summary.json
+│               └── best.tar
+│
 ├── train.py
+├── summary.py
+├── summary.ipynb
+├── note.ipynb
 └── utils.py
+
+
 #+END_SRC
 
